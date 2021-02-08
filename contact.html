@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="application.css">
+    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/archivo">
+    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/avenir-next-cyr">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mr.Coffee is located at 15 pl. Jules Guesde in Paris, near the Central station on a quiet street. Drop by to say “Hi” or to try our best blends of coffee.">
+    <title>How to find mr.Coffee</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js""></script>
+    <script src=" http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js""></script>
+    <script src=" form.js"></script>
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="container">
+            <a href="index.html"><img class="toplogo" src="images/full_logo_white.png"
+                    alt="mrcoffee is delicate and rich in flavor coffee"></a>
+        </div>
+
+        <nav>
+            <ul class="container-menu">
+                <li class="menu-li"><a href="index.html">Accueil</a></li>
+                <li class="menu-li"><a href="about.html">Qui sommes-nous?</a></li>
+                <li class="menu-li"><a href="contact.html">Nous contacter</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <img class="img-blacklogo" src="images/logo_mrcoffee.png" alt="mrcoffee best cafe with great coffee">
+
+    <h1 class="form_heading">Dites nous tout !</h1>
+
+
+    <form id="contact-form" class="contact-form" action="https://formspree.io/f/myybvddl" method="post">
+        <ul class="contact-form-ul">
+            <li class="contact_form-li"><label class="contact-form-label" for="lname">Nom *</label>
+                <input class="contact-form-input" type="text" name="lname">
+            </li>
+
+            <li class="contact_form-li"><label class="contact-form-label" for="name">Prenom *</label>
+                <input class="contact-form-input" type="text" name="user_name">
+            </li>
+
+            <li class="contact_form-li"><label class="contact-form-label" for="telephone">Téléphone</label>
+                <input class="contact-form-input" type="tel" name="phone">
+            </li>
+
+            <li><label class="contact-form-label" for="mail">Adresse mail *</label>
+                <input class="contact-form-input" type="email" name="user_email">
+            </li>
+
+            <li class="contact_form-li"><label class="contact-form-label" for="msg">Message *</label>
+                <textarea class="message" name="message" type="message" id="message" cols="30"
+                    rows="10">Tapez votre message ici</textarea>
+            </li>
+        </ul>
+        <button class="submit">ENVOYER</button>
+    </form>
+
+    <div class="address-container">
+
+        <div class="greet">
+            <h2 class="contact-greeting">On vous attend !</h2>
+        </div>
+
+        <div class="cnt-name">
+            <h2 class="contact-name">Mr.Coffee</h2>
+        </div>
+
+
+        <div class="address-text">
+            <p>15 place Jules Guesde<br>
+                75006 Paris<br></p>
+        </div>
+        <div class="address-text">
+            <p>Tel: +33 9 46 25 78 45<br>
+                <a href="mailto:contact@mr-coffee.com">Mail : contact@mr-coffee.com</a><br>
+            </p>
+        </div>
+
+        <div class="map">
+            <img class="map-img" src="images/carte_contact.png" alt="how to find mecoffee">
+        </div>
+
+    </div>
+    <footer class="main-footer">
+        <div class="footerlogo">
+            <a href="index.html"><img class="footerimg" src="images/logo_blanc.png" alt="tasty coffee"></a>
+        </div>
+
+        <div class="midfooter">
+            <div>
+                <p class="footertext">Suivez nous sur les réseaux sociaux !</p>
+            </div>
+            <div class=" socials">
+                <div>
+                    <a href=" https://www.facebook.com/"><img class="social-icon" src="images/logo_facebook.png"
+                            alt="mr Coffee on Facebook"></a>
+                </div>
+
+                <div>
+                    <a href="https://www.linkedin.com/"><img class="social-icon" src="images/logo_linkedin.png"
+                            alt="mrCoffee on linkedin"></a>
+                </div>
+
+                <div>
+                    <a href="https://twitter.com/"><img class="social-icon" src="images/logo_twitter.png"
+                            alt="mrCoffee on Twitter"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<div class="contact-pop-up">
+    <div>
+        <img class="popup-logo" src="images/logo_dark.png" alt="Thank you for contacting mr.Coffee">
+    </div>
+
+    <div class="popup-centre">
+        <h2 class="popup-h2">MERCI</h2>
+        <p class="popup-p1">Votre message a bien été envoyé !</p>
+        <p class="popup-p2">Nous essaierons d’y répondre au mieux dans les plus brefs
+            délais. À bientot chez Mr.Coffee</p>
+
+        <div>
+            <button class="popup-button">FERMER</button>
+        </div>
+    </div>
+</div>
+
+</html>

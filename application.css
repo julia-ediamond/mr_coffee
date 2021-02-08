@@ -1,0 +1,918 @@
+
+/* HEADER styling */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: #6a7b8b; 
+  background: height 3em; 
+  padding: 1.2em;
+}
+ 
+.menu-li {
+  list-style-type: none;
+  margin: 0 2vw;
+  font-size: 1em;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #cad3d9;
+}
+ 
+.container-menu {
+  display: flex;
+  margin-right: 3em;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+ 
+.toplogo {
+  display: flex;
+  height: 5em;
+  margin-bottom: 0;
+  max-width: 22em;
+  width: 14em;
+}
+ 
+/* FOOTER styling */
+
+.main-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100vw;
+  background-color: #6a7b8b; 
+  flex: 0 0 5em;
+}
+ 
+.footerlogo {
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
+ 
+.midfooter {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footertext {
+  font-size: 0.8em;
+  color: #f0eef2;  
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  max-height: 75%;
+}
+
+.social-icon {
+  height: 1.5em;
+  width: auto;
+  margin: 1em;
+}
+
+.footerimg {
+  height: 3em;
+  width: auto; 
+}  
+
+.footer-text {
+  color: #dce0e4;
+  font-size: 0.5em;
+  font-family: Metropolis, serif;
+}
+
+.img-blacklogo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10em;
+  width: auto;
+  }
+ 
+ 
+/* THIS IS ABOUT styling */
+ 
+.main-content-about >section-about{
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  flex: 1 0 auto;
+  flex-wrap: wrap;
+}
+
+.section-about {
+  display: flex;
+  padding: 2em;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.section-about-d1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: 26em;
+  max-height: 40em;
+  margin-bottom: 5em;
+}
+ 
+.img-coffeshop {
+  width: 95%;
+}
+ 
+.section-about-d2 {
+  justify-content: center;
+  max-width: 26em;  
+  max-height: 40em;
+  object-fit: contain;
+}
+
+.img-aboutcoffee{
+  width: 90%;
+}
+
+.heading-about {
+  color: #5b5b5b;
+  font-size: 2em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: normal;
+  padding-bottom: 1em;
+}
+
+.p-about-section {
+  color:  #5e5e5e;
+  font-size: 1.1em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  line-height: 1.2em;
+}
+
+
+/* This is CONTACT.html styling */
+
+.form_heading {
+  color: #636363;
+  font-size: 2em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.contact-form-ul {
+  padding-inline-start: 0em;
+  list-style-type: none;
+
+}
+
+.contact_form-li{
+  margin: 0em;
+}
+
+
+.contact-form-label {
+  display: block;
+  color: #6c6c6c;
+  font-size: 1.2em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+.contact-form-input {
+  display: inline;
+  border: none;
+  width: 100%;
+  background: #c5c9d2;
+  height: 3em;
+  margin-bottom: 1.5em;
+}
+
+.message {
+  background: #c5c9d2;
+  height: 6em;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+}
+
+.submit {
+margin: 2em;
+height: 4em;
+width: 9em;
+align-self: center;
+background-color:#6a7b8b;
+height: 6em;
+width: 23em;
+border-radius: 0.5em;
+color: white;
+font-size: 1.4em;
+font-family: 'Avenir Next Cyr Medium', sans-serif;
+font-weight: bold;
+}
+.error {
+  color: red;
+  margin-left: 5px;
+}
+.contact-pop-up {
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+object-fit: contain;
+margin: 3em;
+margin-left: 8em;
+display: none;
+}
+
+.popup-logo {
+  height: 7.5vh;
+  width: 5vh;
+  display: flex;
+  align-self: flex-start;
+  margin: 1em;
+}
+
+.popup-centre {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.popup-h2 {
+  color:  #636363;
+  font-size: 2em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 1em;
+}
+
+.popup-p1 {
+  color:  #636363;
+  font-size: 1.5em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.popup-p2 {
+  color:  #636363;
+  font-size: 1em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: bold;
+}
+
+.popup-button {
+  margin: 2em;
+  height: 3em;
+  width: 6em;
+  align-self: center;
+  background-color:#6a7b8b;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 1em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: bold; 
+  display: flex;
+}
+
+.address-container > div{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  width: 80%;
+}
+ 
+.contact-greeting {
+  color: #636363;
+  font-size: 2em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-name {
+  color:  #636363;
+  font-size: 1.5em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: bold;
+}
+
+.address-text {
+  color: #6c6c6c;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+}
+
+a[href^="mailto:"]{
+  color: #6c6c6c;
+  font-size: 1em;
+  margin-right: auto;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  line-height: 1.3em;
+}
+
+.map-img {
+  display: flex;
+  width: 95%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+ 
+
+/* This is INDEX.HTML styling */
+
+.heading-on-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 95vw;
+  margin-left: 3em;
+  margin-right: 3em;
+  position: relative;
+}
+ 
+.onimage {
+  position: absolute;
+  display: flex;
+  color:#feffff;
+  text-shadow: 0.188em 0.188em 0.188em#66747f;
+  font-family: Archivo, serif;
+  text-align: center;
+  text-transform: uppercase;
+  top:20%;
+  left: 36%;
+}
+ 
+.background {
+  width: 95vw;  
+}
+ 
+.home-in-middle {
+  text-align: center;
+  color: #5a5a5a;
+  font-weight: bold;
+  font-family: Metropolis medium;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.greycolumns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  width: 95vw;
+  margin-left: 1.6em;
+}
+ 
+.greycolumn1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  object-fit: contain;
+  background-color: #bbc2ca;
+  max-width: 24em;
+  max-height: 40em;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 1em; 
+}
+
+.img-greycolumns {
+  width: 40%;
+  object-fit: contain;
+  object-position: center;
+  padding: 2em;
+}
+ 
+.heading-greyclmns {
+  color: white;
+  font-size: 1.4em;
+  font-family: 'Archivo', sans-serif;
+  text-shadow: -0.188em 0px 0.188em#66747f;
+  font-weight: bold;
+  margin: 1em;
+}
+ 
+.p-greycolumns {
+  color: white;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: 750;
+  line-height: 150%;
+}
+ 
+.btn-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3em;
+  flex-wrap: wrap;
+}
+ 
+.button-learn-more {
+  background-color:#6a7b8b;
+  height: 6em;
+  width: 23em;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 1.4em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  font-weight: bold;
+  border-color:  #6a7b8b;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+ 
+.open-icon {
+  width: 10%;
+  padding-right: 15px;
+}
+
+.program {
+  color: #5a5a5a;  
+  align-self: center;
+  font-weight: 750;
+  font-family: 'Archivo', sans-serif;
+}
+ 
+.open7days {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 2em;
+  margin-bottom: 0;
+}
+
+.votre-h3 {
+  display: flex;  
+  align-self: flex-end;
+  font-family: 'Archivo', sans-serif;
+}
+
+.events-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.all-events {
+  display: flex;
+  align-items: center;
+  color: #5a5a5a;  
+  width: 95vw;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  line-height: 1.4em;
+}
+ 
+.event2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #5a5a5a;
+  text-align: center;  
+  margin: 2em;
+  margin-top: auto;
+}
+
+.event {
+  margin: 2em;
+  text-align: center;
+}
+
+
+.p-bottom-index {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  color: #616161;
+  margin: 2em;
+}
+
+.p-bottom-index2 {
+  text-align: center;
+  font-size: 2em;
+  color: #5b5b5b;
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
+  margin-bottom: 2em;
+}
+
+
+/* MEDIA QUERIES */
+/*tablets*/
+@media screen and (max-width: 768px) {
+.toplogo {
+  height: auto;
+  width: 45%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+.menu-li {
+  display: flex;
+  align-content: space-between;
+  width: 60%;
+  font-size: 1.3em;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/*ABOUT*/
+
+.img-aboutcoffee {
+  height: 40em;
+  width: auto;
+}
+
+.img-coffeshop {
+  height: 35em;
+  width: auto;
+}
+.p-about-section {
+  font-size: 1.5em;  
+}
+
+.section-about-d2 {
+  max-height: 45em;
+}
+.heading-about {
+  font-size: 2.4em;
+}
+
+.main-footer {
+ display: flex;
+ margin-top: 0.5em;
+}
+
+.footertext {
+  font-size: 1em;
+}
+.social-icon {
+  height: 2em;
+  width: auto;
+}
+
+/*INDEX*/
+
+.onimage {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.greycolumns {
+  padding: 0em;
+}
+
+.greycolumn1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.btn-program {
+  margin: 0em;
+}
+
+button {
+  height: 3em;
+  width: 6.5em;
+  margin-bottom: 2em;  
+}
+
+.all-events {
+  font-size: 1.1em;
+  margin-left: 1.5em;
+}
+
+.open-icon {
+  width: 25%;
+}
+
+.p-bottom-index2 {
+  width: 90%;
+  margin-left: 1.2em;
+  font-size: 1.7em;
+}
+/* CONTACT*/
+
+.address-text {
+  font-size: 1.3em;
+  padding-left: 3em;
+}
+
+.contact-name {
+  margin-left: 2.6em;
+}
+}
+
+
+/*MOBILES*/
+
+@media screen and (max-width: 480px) {
+
+  .toplogo {
+  height: auto;
+  width: 35%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  .container-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .menu-li {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 90%;
+  font-size: 1.1em;
+  margin: 0.7em;
+  }
+
+.img-blacklogo {
+  height: 6em;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  } 
+
+body {
+  width: 30em;
+}
+
+.main-content-about {
+  height: 100%;
+  font-size: 0.9em;
+  margin-bottom: 4em;
+}
+
+.img-aboutcoffee {
+  width: 100%;
+  height: auto;
+  padding: 1em;
+}
+
+.img-coffeshop {
+  width: 100%;
+  padding: 1em;
+  height: auto;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+}
+
+.footerlogo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*INDEX*/
+
+.heading-on-img {
+  max-width: 100%;
+}
+
+.background {
+  width: 90%;
+}
+
+.onimage {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: auto;
+  top: 33%;
+  font-size: 1.5em;
+}
+
+.img-greycolumns {
+  width: 50%;
+}
+
+.greycolumns {
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
+.all-events {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 1em;
+  margin-right: 0em;
+  margin-left: 2em;
+}
+
+.all-events {
+  line-height: 1.2em;
+}
+
+.open-icon{
+  width: 25%;
+  height:auto;
+}
+
+.event {
+  text-align: left;
+}
+
+.event2 {
+  text-align: left;
+  width: auto;
+}
+
+.p-bottom-index {
+  margin: 0em;
+  padding-bottom: 1em;
+}
+
+.p-bottom-index2 {
+  font-size: 1em;
+  padding: 2em;
+  text-align: center;
+}
+
+/*CONTACT*/
+
+.contact-greeting {
+  margin-right: 5em;
+  margin-left: 2em;
+  font-size: 1.5em;
+}
+
+.contact-name {
+  margin-left: 3em;
+}
+
+.map-img {
+  width: 100%;
+  margin: 0em;
+}
+}
+
+@media screen and (max-width: 375px) {
+
+.img-blacklogo {
+  margin-left: 8.8em;
+  
+}
+
+.page-header {
+  width: 100%
+}
+
+.menu-li {
+  font-size: 1.3em;
+}
+
+.greycolumns {
+  width: 100%;
+}
+
+.heading-greyclmns {
+  font-size: 1.5em;
+}
+
+.p-greycolumns{
+  font-size: 1.2em;
+}
+
+.main-footer {
+  width: 80%;
+
+}
+
+.page-header {
+  width: 85%;
+}
+
+.form_heading{
+  font-size: 2.5em; 
+  margin-right: 2.3em;
+  margin-bottom: 1em;
+}
+.contact-form {
+  width: 65%;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+.contact-form-label {
+  font-size: 1.3em;
+}
+
+.contact-form-input {
+height: 4em;
+}
+
+.address-container {
+  width: 80%;
+}
+
+.map {
+  width: 100%;
+}
+
+.address-text {
+  padding: 0em;
+}
+
+.contact-greeting {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: left;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+}
+
